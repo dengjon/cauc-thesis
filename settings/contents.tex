@@ -1,0 +1,32 @@
+%%%%% 目录设置
+\ctexset{
+    chapter = {
+        nameformat = {\bfseries\zihao{3}},
+        format={\bfseries\zihao{3}},
+        number={\arabic{chapter}},
+        aftername={\quad},
+        name={第~,~章},
+        beforeskip=-5pt,
+        afterskip=30pt
+    },
+    section = {
+        % name={,},
+        name={},
+        format={\bfseries\zihao{4}},
+        aftername={\quad},
+    },
+    subsection = {
+        % name={,},
+        name={},
+        format={\heiti\zihao{-4}},
+        aftername={\quad}
+    },
+    contentsname={\centerline{\heiti\zihao{3}目~~录}},
+    paragraph={format={\zihao{-4}}}
+}
+
+
+\titlespacing{\section}{0pt}{7pt}{7pt}%设置章节标题间距
+\titlespacing{\subsection}{0pt}{7pt}{7pt}%设置章节标题间距
+\titlespacing{\subsubsection}{0pt}{7pt}{7pt}%设置章节标题间距
+\setcounter{tocdepth}{2}

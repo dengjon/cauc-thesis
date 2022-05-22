@@ -1,0 +1,13 @@
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}%引用标在右上角
+
+% \renewcommand{\contentsname}{\centerline{\sanhao\heiti目\quad 录}}
+
+%%%% 标题
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}%一级标题前序号用中文序号
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}%二级标题
+\renewcommand{\thesubsubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}%三级标题
+
+%%%% 图、表、公式
+\renewcommand {\thefigure} {\thechapter{}-\arabic{figure}}
+\renewcommand {\thetable} {\thechapter{}-\arabic{table}}
+\renewcommand {\theequation} {\thechapter{}-\arabic{equation}}
