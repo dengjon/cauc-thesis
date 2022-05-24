@@ -137,6 +137,7 @@ acs-*.bib
 *-concordance.tex
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 =======
@@ -147,6 +148,10 @@ acs-*.bib
 # TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
 *-tikzDictionary
 
 # listings
@@ -286,7 +291,10 @@ TSWLatexianTemp*
 *.lpz
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
 
 # xwatermark package
 *.xwm
@@ -295,6 +303,9 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+<<<<<<< HEAD
 >>>>>>> d0b2dc9 (Initial commit)
 =======
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe

@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 =======
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
@@ -10,6 +11,9 @@
 =======
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
@@ -655,6 +659,7 @@ the "copyright" line and a pointer to where the full notice is found.
     You should have received a copy of the GNU General Public License
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 =======
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
@@ -662,6 +667,9 @@ the "copyright" line and a pointer to where the full notice is found.
 =======
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
 
 Also add information on how to contact you by electronic and paper mail.
 
@@ -682,6 +690,7 @@ if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU GPL, see
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <https://www.gnu.org/licenses/>.
 =======
 <http://www.gnu.org/licenses/>.
@@ -689,12 +698,16 @@ For more information on this, and how to apply and follow the GNU GPL, see
 =======
 <https://www.gnu.org/licenses/>.
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+<http://www.gnu.org/licenses/>.
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
 
   The GNU General Public License does not permit incorporating your program
 into proprietary programs.  If your program is a subroutine library, you
 may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
@@ -704,3 +717,6 @@ Public License instead of this License.  But first, please read
 =======
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 >>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
+=======
+<http://www.gnu.org/philosophy/why-not-lgpl.html>.
+>>>>>>> 8d2b77f63b3a7930ccd163ddeafe62f6b3446efe
