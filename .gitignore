@@ -136,12 +136,17 @@ acs-*.bib
 # knitr
 *-concordance.tex
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 =======
 # TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
 # *.tikz
 >>>>>>> d0b2dc9 (Initial commit)
+=======
+# TODO Comment the next line if you want to keep your tikz graphics files
+*.tikz
+>>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
 *-tikzDictionary
 
 # listings
@@ -280,6 +285,7 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # xwatermark package
@@ -290,3 +296,5 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 >>>>>>> d0b2dc9 (Initial commit)
+=======
+>>>>>>> ce394e9fce09e019d1d665b09cda89b6f23d9393
