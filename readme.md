@@ -58,4 +58,4 @@
 
 # 使用技巧
 
-在编写TeX文件时，常用的软件有TeXstudio等，但本人在撰写论文的时候使用的是vscode，因为vscode的代码高亮、代码补全和插件等功能非常吸引我，在此提供一个[vscode+latex](https://zhuanlan.zhihu.com/p/166523064)的配置教程（仅推荐，根据个人喜好决定是否使用）。
+在编写TeX文件时，常用的软件有TeXstudio等，但本人在撰写论文的时候使用的是vscode，因为vscode的代码高亮、代码补全和插件等功能非常吸引我，在此提供一个[vscode+latex](https://zhuanlan.zhihu.com/p/166523064)的配置教程（仅推荐，根据个人喜好决定是否使用）
