@@ -1,41 +1,38 @@
 %--------------字体------------------
 \newcommand{\FakeBoldSize}{4}
-% Windows or other platform
-% \setCJKfamilyfont{zhfs}   {FangSong} [AutoFakeBold={\FakeBoldSize}]
-% \setCJKfamilyfont{zhhei}  {SimHei}   [AutoFakeBold={\FakeBoldSize}]
-% \setCJKfamilyfont{zhkai}  {KaiTi}    [AutoFakeBold={\FakeBoldSize}]
-% \setCJKfamilyfont{zhsong} {SimSun}   [AutoFakeBold={\FakeBoldSize}]
-% \setCJKmainfont[AutoFakeBold={\FakeBoldSize}]{SimSun}
-%\setmainfont{Times New Roman}
-% \renewcommand{\bibfont}{\zihao{5}\songti}
 
 %%%% 定义字体族简称
-\setCJKfamilyfont{song}{SimSun}[AutoFakeBold={\FakeBoldSize}]
-\setCJKfamilyfont{hei}{SimHei}[AutoFakeBold={\FakeBoldSize}]
-\setCJKfamilyfont{kai}{KaiTi}[AutoFakeBold={\FakeBoldSize}]
-\setCJKfamilyfont{lishu}{LiSu}[AutoFakeBold={\FakeBoldSize}]
-\setCJKfamilyfont{fangsong}{FangSong}[AutoFakeBold={\FakeBoldSize}]
+% 一般的字体
+\setCJKfamilyfont{songti}{SimSun.ttf}[Path=fonts/]
+\setCJKfamilyfont{heiti}{SimHei.ttf}[Path=fonts/]
+\setCJKfamilyfont{kaiti}{KaiTi.ttf}[Path=fonts/]
+\setCJKfamilyfont{lishu}{LiSu.ttf}[Path=fonts/]
+% 粗体
+\setCJKfamilyfont{fakesong}{SimSun.ttf}[Path=fonts/, AutoFakeBold={\FakeBoldSize}]
+\setCJKfamilyfont{fakehei}{SimHei.ttf}[Path=fonts/, AutoFakeBold={\FakeBoldSize}]
+\setCJKfamilyfont{fakeli}{LiSu.ttf}[Path=fonts/, AutoFakeBold={\FakeBoldSize}]
 
 %%%% 设置全文中英文主字体
-\setCJKmainfont[AutoFakeBold={\FakeBoldSize}]{SimSun} % 中文主字体
+\setCJKmainfont[Path=fonts/]{SimSun.ttf}
 \setmainfont{Times New Roman} % 英文主字体
 
 %%%% 创建字体格式设置命令
 % 伪粗体
-\newcommand{\fakehei}{\CJKfamily{hei}}
-\newcommand{\fakesong}{\CJKfamily{song}}
-\newcommand{\fakeli}{\CJKfamily{lishu}}
+\newcommand{\fakehei}{\CJKfamily{fakehei}}
+\newcommand{\fakesong}{\CJKfamily{fakesong}}
+\newcommand{\fakeli}{\CJKfamily{fakeli}}
 % 正常体
-\renewcommand{\heiti}{\CJKfamily{SimHei}}
-\renewcommand{\songti}{\CJKfamily{SimSun}}
-\newcommand{\lishu}{\CJKfamily{LiSu}}
-\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
-\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
-\newcommand{\xiaosi}{\fontsize{12pt}{\baselineskip}\selectfont}
-\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
-\newcommand{\xiaowu}{\fontsize{9pt}{\baselineskip}\selectfont}
-\newcommand{\timu}{\fontsize{16pt}{\baselineskip}\selectfont\CJKfamily{hei}}%题目格式
-\newcommand{\zhaiyao}{\fontsize{16pt}{\baselineskip}\selectfont\CJKfamily{li}}%摘要格式
+\renewcommand{\songti}{\CJKfamily{songti}}
+\renewcommand{\heiti}{\CJKfamily{heiti}}
+
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont} % 初号
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont} % 三号
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont} % 四号
+\newcommand{\xiaosi}{\fontsize{12pt}{\baselineskip}\selectfont} % 小四
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont} % 五号
+\newcommand{\xiaowu}{\fontsize{9pt}{\baselineskip}\selectfont} % 小五
+\newcommand{\timu}{\fontsize{16pt}{\baselineskip}\selectfont\CJKfamily{heiti}} % 题目格式
+\newcommand{\zhaiyao}{\fontsize{16pt}{\baselineskip}\selectfont\CJKfamily{lishu}} % 摘要格式
 
 %%%% 目录字体
 \titlecontents{chapter}[0pt]{\heiti\zihao{-4}}{\thecontentslabel\quad}{}
