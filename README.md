@@ -1,9 +1,5 @@
 # [CAUC THESIS](https://github.com/dengjon/cauc-thesis)
 
-![Chocolatey](https://img.shields.io/chocolatey/dt/cauc_thesis)
-
-![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/l/cauc_thesis)
-
 # 简介
 
 本项目为中国民航大学本科毕业设计论文的LaTeX模板，其初始版本由理学院秦绍萌老师提供。在毕设撰写中对其存在的一些问题进行修改，供擅长LaTeX并且希望用LaTeX撰写本科毕业设计的同学使用。
