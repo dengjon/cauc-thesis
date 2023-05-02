@@ -1,16 +1,26 @@
+# [CAUC THESIS](https://github.com/dengjon/cauc-thesis)
+
+![Chocolatey](https://img.shields.io/chocolatey/dt/cauc_thesis)
+
+![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/l/cauc_thesis)
+
 # 简介
 
-本项目为中国民航大学本科毕业设计论文的LaTeX模板，其初始版本由理学院秦绍萌老师提供，经过本人的修改、重构、整理，并在毕设撰写中对存在的一些问题进行修改得到，供擅长LaTeX并且希望用LaTeX撰写本科毕业设计的同学使用。
+本项目为中国民航大学本科毕业设计论文的LaTeX模板，其初始版本由理学院秦绍萌老师提供。在毕设撰写中对其存在的一些问题进行修改，供擅长LaTeX并且希望用LaTeX撰写本科毕业设计的同学使用。
 
 # 使用方式
 
 ## 编译方式
 
-本模板推荐使用本地编译环境进行编译，不推荐使用Overleaf编译（经实验发现编译速度较慢）
-
-本地编译需要安装TeXLive工具包，使用XeLaTex引擎
+- 本模板经过调整，将相关的字体下载到了 `fonts/` 目录下，能够兼容多操作系统
+- 可以使用Overleaf进行在线编辑，经测试编译速度较快
+- 本地编译需要安装**TeXLive** 工具包（2022及以上版本），使用XeLaTex引擎
+  注：如果安装了CTEX包可能会出现无法编译的问题，因为CTEX中使用的是MikTeX工具而非TeXLive。
+  （此处的CTEX指的是一种TeX工具的集成包，并非LaTeX中使用的`ctex`宏包）
 
 ## 参考文献
+
+### Bibtex
 
 为了能够适配学校的模板要求，并且方便参考文献的整理，本模板推荐并仅提供使用`.bib`文件保存参考文献信息，使用BibTex编译的方式，具体使用方式如下：
 
@@ -25,6 +35,20 @@
    文献管理软件是一种能够系统化管理文献的软件，代表软件有Zotero，Mendeley，EndNote等，使用文献管理软件可以直接批量导出参考文献的BibTeX信息。在此提供一种[Zotero+LaTeX](https://www.bilibili.com/video/BV1K7411p75F?spm_id_from=333.999.0.0)的文献导出教程。
 
 **编译注意事项**：每次在`.tex`主文件中引用新的参考文献时都需要使用**xelatex+bibtex+2*xelatex**的方式才能顺利构造引用超链接，否则在引用的位置会显示问号。
+
+### bibliography
+
+如果希望手动添加参考文献，可以将原来参考文献部分的`\bibliographystyle{gbt7714-2005-numerical}`替换为下方的命令
+
+```tex
+\begingroup
+\renewcommand{\chapter}[2]{}
+\begin{thebibliography}{99}
+    \addtolength{\itemsep}{-2em}  % 缩小行距
+    \bibitem{ref1}XXX\\
+\end{thebibliography}
+\endgroup
+```
 
 ## 个人信息页
 
@@ -44,17 +68,18 @@
 
 1. pic/：用于保存中航大logo图片的文件夹（勿动）
 2. figures/：用于存放用于插入论文的图片
-3. settings/：存放模板的各种配置文件，其中包含：
+3. fonts/: 用于存放字体文件的文件夹（勿动）
+4. settings/：存放模板的各种配置文件，其中包含：
    1. commands.tex：自定义和重新定义的一些命令
    2. contents：目录格式设置
    3. cover.tex：封面页的信息
    4. fonts.tex：字体的设置以及字体命令的重定义
    5. format.tex：全文的一些一般化的格式设置，例如页眉、行距等
    6. pakages.tex：导入宏包
-4. cauc_thesis.cls：所有格式、设置的汇总文件
-5. cauc_thesis.tex：论文主文件
-6. gbt7714-2005-numerical.bst：国标2005版参考文献引用格式（学校要求规范）
-7. reference.bib：参考文献bibtex引用格式信息的储存文件
+5. cauc_thesis.cls：所有格式、设置的汇总文件
+6. cauc_thesis.tex：论文主文件
+7. gbt7714-2005-numerical.bst：国标2005版参考文献引用格式（学校要求规范）
+8. reference.bib：参考文献bibtex引用格式信息的储存文件
 
 # 使用技巧
 
